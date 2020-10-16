@@ -277,8 +277,8 @@ int main(int argc, char const *argv[])
         printf("PROFILE OF %s\n", argv[1]);
         puts("\n");
         printf("NUMBER OF REQUESTS: %d\n", iterations);
-        printf("SLOWEST TIME: %d\n", minTime);
-        printf("FASTEST TIME: %d\n", maxTime);
+        printf("SLOWEST TIME: %d\n", maxTime);
+        printf("FASTEST TIME: %d\n", minTime);
         printf("AVERAGE TIME: %d\n", totalTime / iterations);
 
         int median;
